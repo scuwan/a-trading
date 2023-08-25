@@ -1,0 +1,5 @@
+akshare==1.10.90
+matplotlib==3.7.2
+pandas==1.5.2
+torch==1.13.1
+tqdm==4.64.1
