@@ -65,13 +65,13 @@ def aggregate_stock_hist_sliding_window(stock_hist: DataFrame , window=3, ndays=
 # print(labels)
 
 def plot_stock_data(code):
-    print("plot")
     hist = fetch_hist(code)
     hist = hist.reset_index()['收盘']
     plt.plot(hist)
+    plt.show()
 
-# 601398
-plot_stock_data('601398')
+# # 601398
+# plot_stock_data('601398')
 
 if __name__ == "__main__":
     import doctest
